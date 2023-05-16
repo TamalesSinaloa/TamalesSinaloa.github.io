@@ -1,0 +1,264 @@
+	/*body*/
+	Body{
+		/*para colocar una imagen de fondo*/
+		background-image:url(../imagenes/fondo.jpg);
+		font-family:"courier new";
+		color:#17202A;
+		font-size:20px;
+	}
+	P{
+		text-align:justify;
+		font-family:new times;
+		color:#17202A;
+		font-size:20px;
+	}
+	hr{
+		border:3px solid #17202A;
+		border-radius:5px;
+	}
+	table,tr,td{
+		border:2px solid;
+		border-color:#17202A;
+		background-color:#DC7633
+	}
+	th{
+		background-color:#D35400; 
+		border: 2px solid;
+		border-color:#17202A;
+	}
+	
+	.pie{
+		font-family:"new times";
+		font-size: 15px;
+		color:#17202A;
+		text-align:center;
+		font-weight:bold;
+	}
+	
+	.subtitulo{
+		font-family:"mifuente2";
+		font-size:25px;
+		color:#17202A;
+		text-align:center;
+	}
+	
+	.titulo{
+		font-family:"mifuente5";
+		font-size:70px; 
+		color:#F39C12;
+		text-align:center;
+	}
+	
+	.tablas{
+		font-family: "mifuente6";
+		font-size: 20px;
+		color:#17202A;
+		text-align:center;
+	}
+	
+	ul{
+		list-style-type:circle;
+		list-style-position: inside;
+	}
+	
+	ol{
+		list-style-type: upper-roman;
+		list-style-position: inside;
+	}
+	
+	.imgmarquee{
+		width:400px;
+		height:400px;
+	}
+	 
+	.imgHipervinculos{
+		width:100px;
+		height:100px;
+		border-radius: 10%;
+	}
+	
+	.imgtablas{
+		width: 150px;
+		height:200px;
+	}
+	
+	.otrasimg {
+		width:300px;
+		height:300px;
+		border:2px solid #17202A;
+	}
+	
+	@font-face{
+		font-family:mifuente5;
+		src:url(../fuentes/mifuente5.ttf);
+	}
+	
+	@font-face{
+		font-family:mifuente6;
+		src:url(../fuentes/mifuente6.ttf);
+	}
+	
+	@font-face{
+		font-family:mifuente2;
+		src:url(../fuentes/mifuente2.ttf);
+	}
+	
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	
+	div#top{
+		width:100%;
+		height:90px;
+		background-image:linear-gradient(#D35400,#E67E22);
+	}
+	
+	div#principal{
+		margin:auto;
+		margin-top:20px;
+		width:80%;
+
+		background-color:#F39C12; 
+	}
+	
+	div#piep{
+		width:100%;
+		margin-top:20px;
+		height:70px;
+		background-color:#F39C12;
+	}
+	
+	div#botones{
+		margin-top:20px;
+		width:100%;
+		height:100%;
+		background-color:#F39C12;
+	}
+	
+	div#descripcion{
+		margin-top:20px;
+		width:100%;
+		background-color:#F39C12;
+		
+	}
+	
+	
+	.caja{
+		height:300px;
+		width:250px;
+		background:#D35400;
+		border:1 px solid #D35400;
+		margin:5px;
+		color:##641E16 ;
+		text-align:center;
+		display: inline-block;
+	}
+	
+	.caja:hover{
+		box-shadow:0 0 10px blue;
+		transform: scale(1.3);
+	}
+	
+	.caja-text{
+		padding-top:5px;
+		padding-bottom:5px;
+		font-size:20px;
+		color:##F39C12;
+		font-weight:bold;
+		
+	}
+	
+	.texto-adicional{
+		padding-top:5px;
+		font-size:15px;
+	}
+	
+.carrousel{
+    width: 600px;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+/*
+#itemCarrousel-1{
+    background-color: red;
+}
+
+#itemCarrousel-2{
+    background-color:blue;
+}
+
+#itemCarrousel-3{
+    background-color: green;
+}
+#itemCarrousel-4{
+    background-color: purple;
+}
+*/
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 32px;
+    color: grey;
+}
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+
+ .menu{
+	 height:100px;
+	 width:100px;
+	 background-image:radial-gradient;
+	 margin:5px;
+	 color:black;
+	 text-align:center;
+	 display:inline-block;
+	 }
+ 
+ .menu :hover{
+	 box-shadow:0 0 10px #DC7633;
+	 transform:scale (1.3);
+ }
